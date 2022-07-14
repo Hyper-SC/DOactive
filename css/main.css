@@ -1,0 +1,277 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+}
+.imges {
+  height: 330px;
+  background-image: url("./../img/header-top.png ");
+  background-repeat: no-repeat;
+}
+/* .container{
+    
+}  */
+.navigation {
+  display: flex;
+  align-items: center;
+  margin: 30px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #000000;
+  display: inline-block;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s ease;
+}
+.nav-item a:hover {
+  border-bottom: 1px solid black;
+}
+.dropdawn {
+  position: relative;
+}
+.dropdawn-menu {
+  position: absolute;
+  box-shadow: 10px 5px 5px black;
+  min-width: 150px;
+  display: none;
+}
+.dropdawn:hover .dropdawn-menu {
+  display: block;
+}
+.dropdawn-menu .nav-item {
+  margin: 0;
+}
+.nav-item {
+  margin: 15px;
+  list-style: none;
+}
+.header-nav-list {
+  display: flex;
+}
+.box {
+  padding-left: 230px;
+}
+.box a {
+  text-decoration: none;
+  color: #ffffff;
+  background: #5bbc58;
+  border-radius: 6px;
+  padding: 12px 30px;
+  margin-left: 19px;
+}
+.box select {
+  appearance: none;
+  border: white;
+}
+/* 1-section */
+.sections {
+  display: flex;
+  padding-left: 135px;
+  padding-right: 230px;
+  padding-top: 100px;
+}
+.list-style {
+  list-style: none;
+  margin: 5px;
+  background-image: url(./../img/galichka.png);
+  background-repeat: no-repeat;
+}
+.list-inner {
+  list-style: none;
+  margin: 5px;
+  background-image: url(./../img/galichka1.png);
+  background-repeat: no-repeat;
+}
+.list-menu {
+  list-style: none;
+  margin: 5px;
+  background-image: url(./../img/galichka2.png);
+  background-repeat: no-repeat;
+}
+.box1 {
+  margin-top: 40px;
+}
+.background {
+  background: #5bbc58;
+  border-radius: 6px;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.border {
+  padding: 12px 30px;
+  border-radius: 6px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+.box3 {
+  margin: 30px;
+}
+.uch-quti {
+  position: absolute;
+  left: 192px;
+  bottom: -500px;
+}
+
+/* 2-section */
+.sections1 {
+  padding-top: 165px;
+  text-align: center;
+}
+.box4 {
+  display: flex;
+  margin: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  justify-content: space-between;
+}
+
+.sections2 {
+  padding-top: 100px;
+  text-align: center;
+}
+.box5 {
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 70px;
+}
+/* 3-section */
+.sections3 {
+  padding-top: 100px;
+  display: flex;
+}
+.box6 {
+  z-index: -1;
+  position: absolute;
+  width: 1355px;
+  height: 420px;
+  background-color: #d6ffda;
+}
+.sections3 img {
+  position: absolute;
+  top: 2150px;
+  left: 550px;
+}
+.box6 {
+  padding: 60px;
+  padding-right: 800px;
+}
+.box6 a {
+  text-decoration: none;
+  color: #fff;
+  background: #5bbc58;
+  border-radius: 6px;
+  padding: 12px 30px;
+}
+/* 3-section */
+.sections4 {
+  padding-top: 550px;
+}
+.images {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 1190px;
+  bottom: -2350px;
+}
+.pic {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  right: 1220px;
+  bottom: -2350px;
+}
+.box7 {
+  background: #f9f9f9;
+  border-radius: 12px;
+  text-align: center;
+  position: absolute;
+  left: 200px;
+  width: 927px;
+  height: 224px;
+  padding: 0 150px;
+}
+/* 4-section */
+.sections5 {
+  padding-top: 400px;
+}
+.sections5 h2 {
+  text-align: center;
+}
+.sections5 p {
+  padding-left: 0 150px;
+}
+hr {
+  opacity: 0.1;
+  width: 1040px;
+}
+.color {
+  opacity: 0.45;
+}
+.news-list li {
+  list-style: none;
+  padding: 0 200px;
+  margin: 20px;
+}
+.ul img {
+  position: relative;
+  bottom: -35px;
+  left: 180px;
+}
+.ul1 img {
+  position: relative;
+  bottom: -35px;
+  left: 180px;
+}
+/* 6-section */
+.sections6 {
+  margin-top: 100px;
+  display: flex;
+  padding: 80px;
+}
+.box8 input {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  padding: 14px 15px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+.box8 {
+  margin: 20px;
+  padding-left: 40px;
+}
+.left {
+  position: relative;
+  left: 35px;
+}
+.left1 {
+  position: relative;
+  left: 65px;
+}
+.box9 {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.sections6 a {
+  background: #5bbc58;
+  border-radius: 6px;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+}
+.inlien-block {
+  display: inline-block;
+  margin: 10px;
+}
+
+.footers {
+  display: flex;
+  justify-content: space-evenly;
+}
